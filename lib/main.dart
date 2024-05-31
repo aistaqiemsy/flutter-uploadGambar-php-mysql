@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Unggah Gambar PHP-MySQL'),
+      home: const MyHomePage(title: 'Olah Gambar'),
     );
   }
 }
@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Row(
               children: [
-                Text("Gambar"),
+                Text("Pilih Gambar"),
                 ElevatedButton(
                   onPressed: _bukaPilihGambar,
                    child: Text("Pilih Gambar")
@@ -90,3 +90,10 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+
+
+
+
+
+// https://www.kindacode.com/article/flutter-firebase-storage/
